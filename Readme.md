@@ -42,14 +42,14 @@
 
 2. Copiar la carpeta .conf-fold en la carpeta nueva
 
-    `cp ../../.conf_fold ./`
+    `cp ../path_carpeta/.conf_fold ./`
 
 3. Ejecutar comando desde el path de la carpeta nueva
 
    `sh .conf-fold/configure.sh`
 4. Ejecutar comando
   
-   **`pug`**
+   **`gulp`**
 
 
 
