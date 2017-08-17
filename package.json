@@ -2,6 +2,11 @@
   "name": "nkrgo-disenio",
   "version": "1.0.0",
   "main": "index.js",
+  "repository": {
+    "url": "git@github.com:IngPaul/nkrgo-web-d.git",
+    "type": "git"
+  },
+  "author": "Paul Cuichan <ing.paul.cuixan@gmail.com>",
   "license": "MIT",
   "devDependencies": {
     "babel-core": "^6.26.0",
@@ -12,11 +17,11 @@
     "gulp-autoprefixer": "^4.0.0",
     "gulp-babel": "^7.0.0",
     "gulp-cli": "^1.4.0",
-    "gulp-postcss": "^7.0.0",
     "gulp-pug": "^3.3.0",
     "gulp-sass": "^3.1.0",
-    "gulp-sourcemaps": "^2.6.0",
-    "gulp-watch-dir": "^0.1.0"
+    "gulp-sourcemaps": "^2.6.0"
   },
-  "dependencies": {}
+  "dependencies": {
+    "gulp-watch-dir": "^0.1.0"
+  }
 }

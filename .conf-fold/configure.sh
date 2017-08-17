@@ -1,4 +1,5 @@
-
+pwd
+yarn init -y
 #Instalar gulp-cli
 yarn global add gulp-cli 
 yarn add gulp-cli gulp --dev
@@ -22,7 +23,7 @@ yarn add gulp-sourcemaps --dev
 
 yarn add gulp-babel babel-core babel-preset-es2015 babel-preset-stage-2 --dev
 
-
+yarn add gulp-watch-dir
 #browser sync
 yarn global add browser-sync
 
@@ -31,6 +32,12 @@ yarn add browser-sync --dev
 #copiar gulpfile
 cp ./.conf-fold/gulpfile.js gulpfile.js
 
+#copiar estructura
+rm -rf ./dev
+cp -rf ./.conf-fold/dev ./
 
+#copiar ignore
+
+cp ./.conf-fold/.gitignore .gitignore
 
 

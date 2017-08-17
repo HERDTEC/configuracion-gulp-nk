@@ -1,3 +1,4 @@
+
 ## Instalacion de gulp
 * Instalar gulp-cli
     ````
@@ -32,4 +33,23 @@
     yarn global add browser-sync
     yarn add browser-sync --dev
     ```
+## Instalacion de gulp de forma automatica con archivo configure.sh
+1. Crear una nueva carpeta e ingresar por consola 
+   
+   `mkdir proyecto`
+   
+   `cd proyecto`
+
+2. Copiar la carpeta .conf-fold en la carpeta nueva
+
+    `cp ../../.conf_fold ./`
+
+3. Ejecutar comando desde el path de la carpeta nueva
+
+   `sh .conf-fold/configure.sh`
+4. Ejecutar comando
+  
+   **`pug`**
+
+
 
